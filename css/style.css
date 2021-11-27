@@ -1,0 +1,230 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.w-25 {
+    width: 20%!important;
+}
+
+
+/* Style Nice Scroll */
+
+body::-webkit-scrollbar {
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9ab5dd;
+    border-radius: 100px;
+}
+
+.custom-body-scroll::-webkit-scrollbar {
+    width: 16px;
+}
+
+.custom-body-scroll::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.custom-body-scroll::-webkit-scrollbar-thumb {
+    background-color: #9ab5dd;
+    border-radius: 100px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 16px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #9ab5dd;
+    border-radius: 100px;
+}
+
+.catgery .card-body::-webkit-scrollbar {
+    width: 16px;
+}
+
+.catgery .card-body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+.catgery .card-body::-webkit-scrollbar-thumb {
+    background-color: #9ab5dd;
+    border-radius: 100px;
+}
+
+
+/* End */
+
+.close-icon {
+    background-color: #f8d7da;
+    cursor: pointer;
+    border: 1px solid #f8d7da;
+    padding: 5px 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.catgery .card-body {
+    height: 92vh;
+    overflow-y: auto;
+}
+
+.custom-scroll {
+    height: 34vh;
+    overflow-y: auto;
+}
+
+.custom-body-scroll {
+    height: 71vh;
+    overflow-y: auto;
+}
+
+.tab-content {
+    margin-bottom: 0px;
+}
+
+.bg-light {
+    border-radius: 20px;
+}
+
+.left-card {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.new-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.custom-btn {
+    background-color: #cfe2ff !important;
+    color: #0d6efd !important;
+    font-weight: 600;
+    border-radius: 14px;
+}
+
+
+/* rounded-custom */
+
+.rounded-custom {
+    border-radius: 15px;
+}
+
+
+/* Amount Card */
+
+.modal .container {
+    height: 100vh
+}
+
+.modal .card {
+    border: none
+}
+
+.modal .card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: none
+}
+
+.modal .btn-light:focus {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)
+}
+
+.modal .form-control {
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    font-size: 14px
+}
+
+.modal .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #039be5;
+    outline: 0;
+    box-shadow: none
+}
+
+.bg-custom {
+    background: #fbfbff;
+}
+
+.modal .input {
+    position: relative
+}
+
+.modal .input i {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    color: #989898
+}
+
+.modal .input input {
+    text-indent: 25px
+}
+
+.modal .card-text {
+    font-size: 13px;
+    margin-left: 6px
+}
+
+.modal .certificate-text {
+    font-size: 12px
+}
+
+.modal .billing {
+    font-size: 11px
+}
+
+.modal .super-price {
+    top: 0px;
+    font-size: 22px
+}
+
+.modal .super-month {
+    font-size: 11px
+}
+
+.line {
+    color: #bfbdbd
+}
+
+.modal .free-button {
+    background: #1565c0;
+    height: 52px;
+    font-size: 15px;
+    border-radius: 8px
+}
+
+.modal .payment-card-body {
+    flex: 1 1 auto;
+    padding: 24px 1rem !important
+}
+
+.tab-content .card-body {
+    background: #fdfcfc;
+    border-radius: 20px;
+    color: #505355;
+    padding-top: 20px;
+}

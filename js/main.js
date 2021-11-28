@@ -32,13 +32,13 @@ function orderBasket(itemName, itemPrice, itemImage) {
 
     // Adjust text Color to text-denger
 
-    orderItemPriceSpan.className = 'text-danger fw-bold ms-4 '
+    orderItemPriceSpan.className = 'text-danger fw-bold ms-1 '
     orderItemPriceSpan.appendChild(orderItemPrice);
 
     const deleteButton = document.createElement('button');
-    const deleteButtonText = document.createTextNode('X');
+    const deleteButtonText = document.createElement('i');
     deleteButton.appendChild(deleteButtonText);
-    deleteButton.className = 'btn custom-btn '
+    deleteButton.className = 'fas fa-times-circle btn custom-btn'
     deleteButton.setAttribute('onclick', 'deleteItem(' + i + ', this )');
 
 
